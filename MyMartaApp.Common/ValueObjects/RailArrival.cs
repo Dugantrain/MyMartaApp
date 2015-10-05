@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 
 namespace MyMartaApp.Common.ValueObjects
 {
-    public class RailSchedule : IValueObject
+    public class RailArrival : IValueObject
     {
         [JsonProperty("DESTINATION")]
         public string Destination { get; set; }
